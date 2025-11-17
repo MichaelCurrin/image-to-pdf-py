@@ -1,5 +1,5 @@
-# Combine images as a PDF
-> Convert one or more image files into a single PDF - a light Python package
+# Combine Images as a PDF
+> Combine one or more image files and convert to a single PDF - a light Python package
 
 ## Sample
 
