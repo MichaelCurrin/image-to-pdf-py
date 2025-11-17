@@ -1,16 +1,15 @@
 """
 Combine image files into a single PDF.
 
-Based on https://stackoverflow.com/a/47283224
+Based on https://stackoverflow.com/a/47283224 and extended with Cursor AI.
 """
 
-from pathlib import Path
-from typing import Sequence
 import argparse
 import sys
+from pathlib import Path
+from typing import Sequence
 
 from PIL import Image
-
 
 IMG_SUFFIXES = (".bmp", ".gif", ".jpeg", ".jpg", ".png", ".tif", ".tiff")
 
