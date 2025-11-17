@@ -27,6 +27,12 @@ pipx install git+https://github.com/MichaelCurrin/image-to-pdf-py \
 img2pdf -h
 ```
 
+Remove:
+
+```sh
+pipx uninstall img2pdf
+```
+
 ## Development
 
 ### Installation
