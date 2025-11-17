@@ -46,6 +46,13 @@ Run the script:
 poetry run img2pdf -h
 ```
 
+Format:
+
+```sh
+poetry run black .
+poetry run isort .
+```
+
 ## License
 
 Licenses under [MIT](/LICENSE).
