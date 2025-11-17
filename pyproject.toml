@@ -1,7 +1,7 @@
 [project]
 name = "combine-img-as-pdf"
 version = "0.1.0"
-description = ""
+description = "Basic Python CLI tool to combine image files as a PDF file"
 authors = [
     { name = "Michael Currin", email = "18750745+MichaelCurrin@users.noreply.github.com" },
 ]
@@ -20,5 +20,5 @@ black = "^25.11.0"
 isort = "^7.0.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
