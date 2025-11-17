@@ -1,5 +1,5 @@
 [project]
-name = "combine-img-as-pdf"
+name = "img2pdf"
 version = "0.1.0"
 description = "Basic Python CLI tool to combine image files as a PDF file"
 authors = [
