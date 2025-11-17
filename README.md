@@ -1,5 +1,5 @@
 # Combine Images as a PDF
-> Combine one or more image files and convert to a single PDF - a light Python package
+> Basic Python CLI tool to combine image files as a PDF file
 
 ## Sample
 
@@ -23,8 +23,8 @@ img2pdf -h
 Alternatively, run using [pipx](https://pypa.github.io/pipx/) without installing globally:
 
 ```sh
-pipx run --spec git+https://github.com/MichaelCurrin/image-to-pdf-py \
-    img2pdf -h
+pipx install git+https://github.com/MichaelCurrin/image-to-pdf-py \
+img2pdf -h
 ```
 
 ## Development
