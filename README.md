@@ -1,10 +1,10 @@
-## Combine IMG as PDF
+# Combine IMG as PDF
 > Convert one or more image files into a single PDF using a lightweight Python script.
 
 ## Sample
 
 ```sh
-# From directory.
+# From a directory.
 img2pdf --dir my_images out.pdf
 
 # From specific image paths.
@@ -45,3 +45,7 @@ Run the script:
 ```sh
 poetry run img2pdf -h
 ```
+
+## License
+
+Licenses under [MIT](/LICENSE).
