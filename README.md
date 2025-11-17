@@ -15,7 +15,7 @@ img2pdf --path abc.png def.jpg out.pdf
 
 Install directly from GitHub with pip, then invoke the script:
 ```sh
-pip install git+https://github.com/MichaelCurrin/combine-img-as-pdf
+pip install git+https://github.com/MichaelCurrin/image-to-pdf-py
 
 img2pdf -h
 ```
@@ -23,7 +23,7 @@ img2pdf -h
 Alternatively, run using [pipx](https://pypa.github.io/pipx/) without installing globally:
 
 ```sh
-pipx run --spec git+https://github.com/MichaelCurrin/combine-img-as-pdf \
+pipx run --spec git+https://github.com/MichaelCurrin/image-to-pdf-py \
     img2pdf -h
 ```
 
