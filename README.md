@@ -1,5 +1,5 @@
-# Combine IMG as PDF
-> Convert one or more image files into a single PDF using a lightweight Python script.
+# IMG to PDF
+> Convert one or more image files into a single PDF - a light Python package
 
 ## Sample
 
