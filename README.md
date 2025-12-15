@@ -1,5 +1,5 @@
 # Combine Images as a PDF
-> Basic Python CLI tool to combine image files as a PDF file
+> Python CLI tool to combine image files as a PDF file
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/image-to-pdf-py?include_prereleases=&sort=semver&color=blue)](https://github.com/MichaelCurrin/image-to-pdf-py/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
