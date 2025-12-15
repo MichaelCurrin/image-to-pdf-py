@@ -4,7 +4,7 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/image-to-pdf-py?include_prereleases=&sort=semver&color=blue)](https://github.com/MichaelCurrin/image-to-pdf-py/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-[![Made with Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)](https://python.org "Go to Python website")
+[![Python version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FMichaelCurrin%2Fimage-to-pdf-py%2Frefs%2Fheads%2Fmain%2Fpyproject.toml&query=project.requires-python&label=python&logo=python&logoColor=white)](https://python.org)
 [![dependency - poetry](https://img.shields.io/badge/poetry-2.x-blue)](https://pypi.org/project/poetry)
 
 
@@ -42,9 +42,13 @@ pipx uninstall img2pdf
 
 ## Development
 
+### System dependencies
+
+- Install Python - see `requires-python` in [pyproject.toml](/pyproject.toml).
+- Install Poetry - follow Installation on the [Poetry docs](https://python-poetry.org/docs/).
+
 ### Installation
 
-1. Install Poetry - follow Installation on the [Poetry docs](https://python-poetry.org/docs/).
 1. Clone the project.
 1. Navigate to it.
 1. Install dependencies:
