@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Sequence
 
 from PIL import Image
+from PIL import ImageFile
 
 IMG_SUFFIXES = (".bmp", ".gif", ".jpeg", ".jpg", ".png", ".tif", ".tiff")
 
@@ -53,14 +54,15 @@ def resolve_paths(
     return paths
 
 
-def load_images(paths: Sequence[Path]) -> list[Image.Image]:
+def load_images(paths: Sequence[Path]) -> list[ImageFile.ImageFile | Image.Image]:
     """
     Return opened image objects converted to RGB mode.
 
     :param paths: Paths to the images to load.
 
-    :returns Loaded image objects.
+    :returns: Loaded image objects.
     """
+    image: ImageFile.ImageFile | Image.Image
 
     loaded = []
     for path in paths:
@@ -72,7 +74,7 @@ def load_images(paths: Sequence[Path]) -> list[Image.Image]:
     return loaded
 
 
-def save_pdf(images: Sequence[Image.Image], output: Path) -> None:
+def save_pdf(images: Sequence[ImageFile.ImageFile | Image.Image], output: Path) -> None:
     """
     Save images into a single PDF file.
 
