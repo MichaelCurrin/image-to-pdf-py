@@ -8,7 +8,8 @@ from typing import Iterable
 import pytest
 from PIL import Image
 
-from img2pdf.__main__ import load_images, resolve_paths, save_pdf
+# Note using the package name otherwise mypy complains about two __main__ paths.
+from __main__ import load_images, resolve_paths, save_pdf
 
 
 def _create_image(path: Path, color: str = "red") -> None:
