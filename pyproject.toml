@@ -9,17 +9,17 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = ["pillow (>=12.0.0,<13.0.0)"]
 
-[tool.poetry]
-packages = [{ include = "img2pdf" }]
-
-[project.scripts]
-img2pdf = "img2pdf.__main__:main"
-
 [tool.poetry.group.dev.dependencies]
 isort = "^7.0.0"
 ruff = "^0.14.9"
 mypy = "^1.19.1"
 pytest = "^9.0.2"
+
+[tool.poetry]
+packages = [{ include = "img2pdf" }]
+
+[project.scripts]
+img2pdf = "img2pdf.__main__:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
