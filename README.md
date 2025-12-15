@@ -11,16 +11,17 @@
 ## Sample
 
 ```sh
-# From a directory.
+# Convert all images in a directory:
 img2pdf --dir my_images out.pdf
 
-# From specific image paths.
+# Convert specific image paths:
 img2pdf --path abc.png def.jpg out.pdf
 ```
 
 ## Usage
 
 Install directly from GitHub with pip, then invoke the script:
+
 ```sh
 pip install git+https://github.com/MichaelCurrin/image-to-pdf-py
 
@@ -30,7 +31,8 @@ img2pdf -h
 Alternatively, run using [pipx](https://pypa.github.io/pipx/) without installing globally:
 
 ```sh
-pipx install git+https://github.com/MichaelCurrin/image-to-pdf-py \
+pipx install git+https://github.com/MichaelCurrin/image-to-pdf-py
+
 img2pdf -h
 ```
 
