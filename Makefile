@@ -28,7 +28,7 @@ fmt:
 	poetry run ruff format
 
 types:
-	poetry run mypy $(APP_NAME)
+	poetry run mypy $(APP_NAME) tests
 
 check:
 	poetry build
